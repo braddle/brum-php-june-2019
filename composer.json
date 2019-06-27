@@ -1,0 +1,15 @@
+{
+    "name": "braddle/brum-php",
+    "description": "Code produced during live coding session during TDD talk @ Brum PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Braddle\\Test\\": "test",
+            "Braddle\\": "src"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "7.5.13"
+    }
+}
